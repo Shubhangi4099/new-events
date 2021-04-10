@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>$(document).on('ready', function () {
+        setTimeout(function () {
+            $('.letter').addClass('loaded');
+            $('.reg-text').addClass('loaded');
+        }, 1000);
+    });</script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/mainlogo.png" alt="My Food Delivery Guide">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#aboutus">About Us</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#contactus">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- section home -->
+    <section id="home">
+      <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="80%"> Events Manegment</text>
+        </symbol>
+      
+        <g class = "g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+     <h1 >HELLO USERS</h1>
+    <h2 class="h-primary">Welcome to My Events Web Page</h1>
+        <p >occurrence, happening, proceeding, episode, incident, affair, circumstance, occasion, business,
+             matter, experience, eventuality, phenomenon. function, gathering, get-together, jamboree.
+             informal bash, do, jolly, shindig, shindy.</p>
+        <button class="btn">Booking Now</button>
+    </section>
+    <!-- SERVICES AREA -->
+    <section id="container">
+        <h1 class="h-primary center">Our Services</h1>
+        <h2 class="h-primary center">The best types of events for 2019</h2>
+        <div id="services">
+            <div class="box">
+                <img class="img" src="images/conf.jpg" alt="Wait for loading">
+                <h2 class="h-secondary center">Conferences</h2>
+                <p class="center">Every business professional knows the importance of networking.
+                     It can benefit your current job or your career as a whole. A networking session doesn’t 
+                     require the educational element –- no speakers required! This means all you need on the event
+                     day is a space and some catering.</p>
+            </div>
+            <div class="box">
+                <img class="img2" src="images/wedding.jpg" alt="Wait for loading">
+                <h2 class="h-secondary center">Event sponsorships</h2>
+                <p class="center">Sponsorship can be a form of event marketing, but not all sponsorship is event marketing. (I promise it’s not as confusing as it sounds!!) In the most simple terms, think of it like this: Sponsorship is usually a form of event marketing if the brand has more
+                     than its logo present at the event.</p>
+            </div>
+            <div class="box">
+                <img class="img3" src="images/trad.jpg" alt="Wait for loading">
+                <h2 class="h-secondary center">Trade shows and event expos</h2>
+                <p class="center">As mentioned above, many events, especially conferences, feature a specific “sponsor hall” or “expo hall.”
+
+                    The difference in a trade show? Those sponsor booths are the event!
+                    
+                    There are often still workshops and classes, but the “main event” (so to speak!) is
+                     meeting with a whole bunch of sellers in a specific industry..</p>
+            </div>
+            <div class="box">
+                <img class="img4" src="images/award.jpg" alt="Wait for loading">
+                <h2 class="h-secondary center">Awards and competitions</h2>
+                <p class="center">Awards and competitions are a great way to get people talking. Winners
+                     love sharing their successes – you don’t even need to
+                     ask them to share on social media!</p>
+            </div>
+            <div class="box">
+                <img class="img5" src="images/festivel.jpg" alt="Wait for loading">
+                <h2 class="h-secondary center">Festivals and parties</h2>
+                <p class="center">Festivals and parties are all about creating a fun experience for your customers and target market.
+
+                    A B2B event may have a more focused audience –
+                     you would specifically invite partners, customers, and valuable prospects.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+      
+     <section class="wrapper">
+  
+        <!-- BEGIN: menu -->
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item  js-modify  active" data-target=".card" data-effect="zoom">Zoom out</li>
+            <li class="menu__item  js-modify" data-target=".card" data-effect="blur">Blur</li>
+            <li class="menu__item  js-modify" data-target=".card" data-effect="color">Colors</li>
+          </ul>
+        </nav>
+        <!-- END: menu -->
+        
+         <div class="card" data-effect="zoom">
+          <button class="card__save  js-save" type="button">
+            <i class="fa  fa-bookmark"></i>
+           </button>
+          <figure  class="card__image">
+            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description">
+          </figure>
+          <div class="card__header">
+            <figure class="card__profile">
+              <img src="shubhu.jpg" alt="Short description">
+            </figure>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">shubhangi ganbas</h3>
+            <p class="card__job">computer engineer</p>
+            <p class="card__bio"> vb kolte collage of engineering.</p>
+          </div>
+          <div class="card__footer">
+            <p class="card__date">Feb 10 2018</p>
+            <p class=""></p>
+          </div>
+        </div>
+
+        <!-- END: card -->
+        
+      </section>
+<!-- customer information -->
+<section id="client-container">
+    <h1 class="h-primary center">Our Clients</h1>
+    <div id="clients">
+        <div class="client-item">
+            <img src="images/whatlogo.png" alt="Client 1 should be here.">
+        </div>
+    
+        <div class="client-item">
+            <img src="images/youlogo.png" alt="Client 2 should be here.">
+        </div>
+    
+        <div class="client-item">
+            <img src="images/insta logo.jpg" alt="Client 3 should be here.">
+        </div>
+
+        <div class="client-item">
+            <img src="images/Facebook-logo.png" alt="Client 4 should be here.">
+        </div>
+    </div>
+</section>
+<!-- Contact information -->
+<section id="contact">
+    <h1 class="h-primary center"> Contact Us!</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+                <!-- NAME ENTER -->
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name!">
+            </div>
+            <div class="form-group">
+                <!-- EMAIL ENTER -->
+                <label for="email">Email: </label>
+                <input type="email" name="name" id="email" placeholder="Enter your email!">
+            <div class="form-group">
+                <!-- ENTER PHONE NUMBER -->
+                <label for="name">Phone Number: </label>
+                <input type="phone" name="name" id="phone" placeholder="Enter your phone!">
+            </div>
+            <div class="form-group">
+                <!-- ENTER MESSAGE -->
+                <label for="name">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Send</button>
+            </form>
+    </div>
+</section>
+<footer>
+    <div class="center">copyright @shubhangiganbas12@gmail.com malkapur 
+    </div>
+</footer>
+</body>
+</html>
